@@ -17,6 +17,7 @@ import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
 import { TagListComponent } from './shared/modules/tagList/components/tag-list/tag-list.component';
 import { ArticleModule } from './article/article.module';
 import { CreateArticleModule } from './createArticle/createArticle.module';
+import { EditArticleModule } from './editArticle/editArticle.module';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CreateArticleModule } from './createArticle/createArticle.module';
     GlobalFeedModule,
     CreateArticleModule,
     ArticleModule,
+    EditArticleModule
   ],
   providers: [
     PersistanceService,
