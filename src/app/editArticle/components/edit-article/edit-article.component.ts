@@ -53,5 +53,4 @@ export class EditArticleComponent implements OnInit {
   onSubmit(articleInput: ArticleInputInterface): void {
     this.store.dispatch(updateArticleAction({slug: this.slug, articleInput: articleInput}))
   }
-
 }
